@@ -17,10 +17,10 @@ Este projeto é um desafio de programação do programa **Oracle Next Education 
 * **API Gutendex** (Jackson para manipulação de JSON)
 
 ## 📖 Como rodar o projeto
-1. Clone o repositório.
-2. Configure as credenciais do seu banco de dados PostgreSQL no arquivo `application.properties`.
-3. Execute a classe `LiteraluraApplication`.
-4. Use o menu interativo no console para navegar pelas opções.
+1. Faça o download ou clone este repositório do GitHub.
+2. Configure o seu usuário e senha do PostgreSQL no arquivo application.properties.
+3. Execute o projeto através da sua IDE (IntelliJ).
+4. Siga as instruções do menu que aparecerá no console.
 
 ---
 Desenvolvido com ❤️ por **Valéria Aparecida Rodrigues Vieira**

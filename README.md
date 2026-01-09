@@ -1,26 +1,28 @@
-# 📚 LiterAlura - Catálogo de Livros
+# 📚 LiterAlura: Integração com API Gutendex
 
-Este projeto é um desafio de programação do programa **Oracle Next Education (ONE)** em parceria com a **Alura**. Uma aplicação Java que consome a API **Gutendex** para buscar informações sobre livros e autores, armazenando-os em um banco de dados relacional.
+Este projeto é um sistema de catálogo de livros desenvolvido como parte da formação do curso e um  desafio proposto pela Alura e o programa Oracle Next Education (ONE). A aplicação realiza buscas na API Gutendex, processa os dados JSON e os armazena de forma estruturada em um banco de dados relacional.
 
-## 🚀 Funcionalidades
-* **Busca de livros por título:** Consulta a API Gutendex e salva no banco de dados.
-* **Listagem de livros:** Exibe todos os livros que já foram pesquisados e salvos.
-* **Listagem de autores:** Exibe os autores dos livros registrados.
-* **Filtro por idioma:** Permite buscar livros salvos de acordo com o idioma (ex: pt, en, fr).
-* **Persistência de dados:** Utiliza PostgreSQL para manter os dados salvos.
+## ⚙️ Funcionamento e Objetivos
+A ideia foi construir uma ferramenta que não apenas buscasse dados externos, mas que também permitisse a gestão desses dados localmente. O sistema oferece:
 
-## 🛠️ Tecnologias Utilizadas
-* **Java 17**
-* **Spring Boot**
-* **Spring Data JPA**
-* **PostgreSQL**
-* **API Gutendex** (Jackson para manipulação de JSON)
+* **Persistência de Dados:** Todos os livros e autores pesquisados são armazenados no PostgreSQL.
+* **Consultas Inteligentes:** Filtros por idioma e listagem de autores que já passaram pela base de dados.
+* **Interatividade via Console:** Uma interface simples para que o usuário navegue pelas opções de busca.
 
-## 📖 Como rodar o projeto
+## 🚀 Decisões Técnicas
+Para realizar o projeto, utilizei:
+* **Java 17 & Spring Boot:** Base da aplicação para um desenvolvimento ágil e robusto.
+* **Spring Data JPA:** Para facilitar a comunicação com o banco de dados e garantir a integridade dos registros.
+* **Jackson:** Responsável por "traduzir" as respostas da API para o código Java.
+
+## 💻 Como Utilizar
 1. Faça o download ou clone este repositório do GitHub.
-2. Configure o seu usuário e senha do PostgreSQL no arquivo application.properties.
-3. Execute o projeto através da sua IDE (IntelliJ).
-4. Siga as instruções do menu que aparecerá no console.
+2. No seu ambiente, configure as credenciais do banco de dados no arquivo `application.properties`.
+3. Execute a aplicação e utilize o menu exibido no terminal.
+4. Certifique-se de que o PostgreSQL está rodando para que os dados sejam salvos corretamente.
 
 ---
-Desenvolvido com ❤️ por **Valéria Aparecida Rodrigues Vieira**
+**Desenvolvido por Valéria Aparecida Rodrigues Vieira**
+
+
+
